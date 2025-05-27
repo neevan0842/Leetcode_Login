@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Google Login Helper",
+  "version": "1.0",
+  "description": "Helps automate Google login process for LeetCode",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://leetcode.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
