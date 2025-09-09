@@ -1,0 +1,28 @@
+/* Popup styles */
+body {
+  width: 200px;
+  padding: 10px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a90ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0073e6;
+}
+
+button:focus {
+  outline: 2px solid #0073e6;
+  outline-offset: 2px;
+}
